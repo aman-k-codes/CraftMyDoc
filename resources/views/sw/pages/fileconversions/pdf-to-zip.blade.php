@@ -9,7 +9,7 @@
     <!-- Hero Section -->
     <section class="pt-12 px-4 bg-gray-50">
         <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-4xl font-extrabold text-gray-800">Convert PDF to ZIP Instantly</h2>
+            <h2 class="text-4xl font-extrabold text-gray-700">Convert PDF to ZIP Instantly</h2>
             <p class="text-lg text-gray-600 mt-3">Upload your PDF file and get a ZIP archive in seconds with our fast and
                 secure converter.</p>
         </div>
@@ -20,19 +20,19 @@
         <div
             class="flex flex-col sm:flex-row sm:justify-center sm:space-x-8 space-y-4 sm:space-y-0 bg-indigo-50 rounded-2xl p-6 max-w-2xl mx-auto mb-8 shadow">
             <div class="flex items-center space-x-2">
-                <div class="w-8 h-8 flex items-center justify-center bg-indigo-700 text-white rounded-full font-bold">1
+                <div class="w-8 h-8 flex items-center justify-center bg-green-700 text-white rounded-full font-bold">1
                 </div>
-                <span class="text-gray-800 font-semibold">Upload PDF</span>
+                <span class="text-gray-700 font-semibold">Upload PDF</span>
             </div>
             <div class="flex items-center space-x-2">
-                <div class="w-8 h-8 flex items-center justify-center bg-indigo-700 text-white rounded-full font-bold">2
+                <div class="w-8 h-8 flex items-center justify-center bg-green-700 text-white rounded-full font-bold">2
                 </div>
-                <span class="text-gray-800 font-semibold">Convert to ZIP</span>
+                <span class="text-gray-700 font-semibold">Convert to ZIP</span>
             </div>
             <div class="flex items-center space-x-2">
-                <div class="w-8 h-8 flex items-center justify-center bg-indigo-700 text-white rounded-full font-bold">3
+                <div class="w-8 h-8 flex items-center justify-center bg-green-700 text-white rounded-full font-bold">3
                 </div>
-                <span class="text-gray-800 font-semibold">Download ZIP File</span>
+                <span class="text-gray-700 font-semibold">Download ZIP File</span>
             </div>
         </div>
         <!-- Upload Area -->@include('ads.ad1')
@@ -40,7 +40,7 @@
             class="border-2 border-dashed border-gray-300 rounded-2xl p-10 max-w-3xl mx-auto text-center bg-white shadow-md">
             <p class="text-lg font-medium mb-4">Drop your PDF file here <span class="text-gray-500">or</span></p>
             <label
-                class="inline-flex items-center bg-indigo-700 text-white font-semibold px-6 py-3 rounded-md cursor-pointer hover:bg-indigo-800">
+                class="inline-flex items-center bg-green-700 text-white font-semibold px-6 py-3 rounded-md cursor-pointer hover:bg-indigo-800">
                 <i class="fas fa-upload mr-2"></i>
                 Upload PDF
                 <input type="file" id="pdfInput" class="hidden" accept="application/pdf" onchange="previewPDF(event)" />
@@ -257,7 +257,7 @@
     <section class="py-12 bg-gray-100">
         <div class="bg-white p-6 md:p-12">
             <div class="text-center mb-8">
-                <h2 class="text-xl font-semibold text-gray-800">Rate this tool</h2>
+                <h2 class="text-xl font-semibold text-gray-700">Rate this tool</h2>
                 <div class="flex items-center justify-center mt-2 space-x-1 text-yellow-500">
                     <i class="fas fa-star text-yellow-500"></i>
                     <i class="fas fa-star text-yellow-500"></i>
